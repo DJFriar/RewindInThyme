@@ -6,8 +6,7 @@
       {% assign postsCovered = site.paginate | plus:offset %}
       {% if postsCovered < postCount %}
       <div class="pagination">
-        <!-- <button class="load-more">Load More <i class="ion ion-ios-arrow-down"></i></button> -->
-        <button class="load-more">Load More <ion-icon class="ion-ios-arrow-down" name="arrow-down-outline"></ion-icon></button>
+        <button class="load-more">Load More <ion-icon class="ion-ios-arrow-down" name="chevron-down-outline"></ion-icon></button>
       </div>
       {% endif %}
     </div>
